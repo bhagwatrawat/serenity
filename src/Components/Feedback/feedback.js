@@ -25,8 +25,8 @@ const Feedback=()=>{
         return(
             <div className="all_messages"> 
             <div className="__user">
-                <div className="__label">User : </div>
-                <div>{item[0].message}</div>
+                <div className="__label">User  </div>
+                <div>: {item[0].message}</div>
             </div> 
             <div className="__bot">
                 <div className="__label1">Bot </div>
@@ -56,6 +56,7 @@ const Feedback=()=>{
         <div>
         <h2>Mark the sentence accuracy for Feedback</h2>
         {feedbackMessages}
+        <Button>Submit</Button>
         </div>
     )
 }
