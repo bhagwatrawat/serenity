@@ -1,14 +1,31 @@
 .__user{
     display:flex;
-   
+   align-items:center;
+   margin-bottom: 10px;
 }
 .__bot{
     display:flex;
-   
+   align-items:center;
+   margin-bottom: 10px;
 }
 .__label{
     margin-right:20px;
+    background-color:#E3E3E3;
+    color:black;
+    padding:15px;
+    border-radius: 45%;
+
+}
+.__label1{
+    margin-right:20px;
+    background-color:#3DC5E7;
+    color:white;
+    padding:15px;
+    border-radius: 45%;
 }
 h2{
     margin-bottom : 30px;
+}
+.all_messages{
+    margin-bottom:20px;
 }
